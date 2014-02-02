@@ -1,0 +1,336 @@
+body{
+	font-family:sans-serif;
+	font-weight:bold;
+	background-color:#000;
+	color:yellow;
+	margin: 0px 0px;
+	overflow: hidden;
+	font-style: normal;
+}
+
+input{
+	background-color:#000;
+	color:yellow;	
+}
+
+.right { text-align: right; }
+
+.TabOnEnter{font-size:16px;border:none;}
+
+#LottoVolume{
+	font-weight:bold;
+	border:none;
+	width: 70px;
+}
+
+#rawdata td{
+	/* width: 30%; */
+}
+
+.lottonumber{
+	width:50px;
+	background-color: yellow;
+	color: #000;
+	font-weight: bold;border:1px solid yellow;
+}
+
+.symboltype{
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+}
+
+#data0,#data1,#data2,#data3,#data4,#data5,#data6,#data7,#data8{
+	border:1px solid #eee;
+	width: 100%;
+}
+.Datalottonumber{
+	width:69px;
+}
+
+.firsttab{width: 100%}
+.secondtab{width: 100%}
+.thirdtab{width: 100%;}
+
+#theader label{
+	color: #eee;
+	font-size: 16px;
+}
+
+#theader th{
+	border:1px solid #fff;padding:11px;
+}
+
+#tfooter td.first{
+	border:1px solid #fff;
+	padding:5px;
+	width: 140px;
+}
+
+#tfooter{
+	width: 100%;
+}
+
+#reporthead{
+	display: none;
+	width: 100%;
+}
+
+#tdata{
+	height: 35px;
+	padding: 2px;
+}
+
+#tdata td{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+.t3{
+	width: 100%;
+	border: none;
+}
+
+.t2{
+	text-align:right;
+	color:#fff;
+}
+/* for raw data */
+.t{
+	text-align:right;
+	width: 106px;
+	font-weight: bold;
+}
+.t4{
+	width: 75px;
+}
+
+.tc{
+	background-color: #809ab5;
+}
+.tc a{
+	color:#3e9aef;
+} 
+
+.help{
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+	z-index: 2;
+}
+.total{
+	background-color: red;
+	color:#fff;
+}
+
+#tdata td{
+	border:1px solid #eee;color:#fff;
+}
+
+
+a:link,a:visited,a:hover{color:inherit;}
+h1{font-size:18px; font-style:italic; margin:40px; color:#26beff;}
+p{margin:0 0 20px 0;}
+hr{height:0; border:none; border-bottom:1px solid rgba(255,255,255,0.13); border-top:1px solid rgba(0,0,0,1); margin:9px 10px; clear:both;}
+
+.links{margin:10px;}
+.links a{color:#fff;display:inline-block; padding:3px 15px; margin:7px 10px; background:#444; text-decoration:none; -webkit-border-radius:15px; -moz-border-radius:15px; border-radius:15px;}
+.links a:hover{background:#eb3755; color:#fff;}
+.output{margin:20px 40px;}
+.output a{display:inline-block; text-decoration:none; padding:3px 15px; -webkit-border-radius:15px; -moz-border-radius:15px; border-radius:15px; background:#000; margin:5px 20px 5px 0;}
+code{color:#5b70ff;}
+
+.content{
+	/*margin:40px;*/
+	/*width:260px;*/
+	/* padding:2px; */
+	overflow:auto;
+	/*background:#333;*/
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	/*max-height:200px*/
+}
+
+#datacontainer{
+	width: 100%;
+}
+
+.content p:nth-child(even){color:#999; font-size:17px; font-style:italic;}
+.content p:nth-child(3n+0){color:#c96;}
+
+
+#feedback { font-size: 12px; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#selectable li {margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; display: block;cursor: pointer;}
+
+ 
+.ui-state-focus{background: yellow;}
+.ui-widget-content .ui-icon {
+	background-image: url("../images/ui-icons_2e83ff_256x240.png");
+	margin-top: 3px;
+}
+
+ /* Raw Lotto Value Auto Complete */
+#lottoinput  .ui-menu-item li{
+ 	border-bottom: none;
+ }
+#lottoinput .ui-menu-item a{
+ 	color:yellow;
+ 	font-size: 11px;
+ 	border-bottom: none;
+ }
+ 
+ a.editlink{text-decoration: none;}
+ .editlink:hover{color: #fff;}
+ 
+ 
+ /* lotto check rate */
+ .redoverlimit{
+ 	color:red;
+ } 
+ .inlimit{
+ 	/* color:yellow; */
+ }
+ 
+ #search{
+ 	display: none;
+ 	/* width: 200px; */
+ 	padding:10px;
+ 	/* height:40px; */
+ 	border-radius: 5px 5px 5px 5px;
+ 	background-color: #000;
+ 	position: absolute;
+ 	z-index: 1;
+ 	border: 1px solid #fff;
+ }
+ #search ul{
+ 	/* list-style: none; */
+ 	padding: 2px;
+ 	margin-left: 5px;
+ }
+ 
+ #search ul>li{
+ 	color:#fff;
+ 	font-size: 12px;
+ 	border-bottom: 1px solid #292927;
+ 	padding: 2px;
+ }
+ 
+ #search #textsearch{
+ 	border: 1px solid yellow;
+ }
+ 
+ .searchresult{
+ 	color: white;!important
+ 	background-color: blue;
+ }
+ 
+/* in page index.html */
+#shcover{
+	display: none;
+	position: absolute;
+	top:45px;
+	z-index: 12;
+	background-color: #4D4D4D;
+	border: 1px solid #7C7C7C;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	/* height: 55px; */
+	width: 250px;
+	padding: 15px;
+}
+
+#shcover #sheet{
+	border: 1px solid #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    padding: 5px;
+    width: 80px;
+}
+
+#preventblock{
+	background: rgba(255, 255, 255, 0.4);
+	width: 100%;height: 100%;
+	position: absolute;
+	z-index: 11;
+	display: none;
+}
+
+ #cleardatapopup{
+ 	top:25px;left:85px;
+    position:absolute;
+ 	z-index:12;
+ 	display:none;
+ 	width:280px;height:65px;
+ 	padding:10px;
+ 	background-color:#000;
+ 	border:1px solid #fff;
+ 	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:red;
+	text-align: center;
+ }
+ 
+#cleardatapopup input[type="button"] {
+    background: none repeat scroll 0 0 #292927;
+    border: 1px solid #292927;
+    border-radius: 5px 5px 5px 5px;
+    color: #EEEEEE;
+    cursor: pointer;
+    margin-left: 7px;
+    padding: 3px;
+    width:45px;margin-top:10px;
+}
+
+#sumtitle{
+	text-align: center;
+	border-radius: 3px 3px 3px 3px;
+	/* padding: 11px; */
+	border:1px solid #fff;
+	/* background-color:#fff; */
+	/* color:#000; */
+	font-size: 18px; 
+}
+
+#doctitle{
+	padding: 10px;
+}
+
+#rawdata{
+	width: 100%;
+}
+
+#printpage{
+	display:none;
+	list-style: none;
+	float: right;
+	padding:0px;
+	margin:0px;
+}
+
+#printpage li{
+	float: left;
+	margin-left: 3px;
+}
+
+#printpage a{
+	padding:8px;
+	border:1px solid #eee;
+	border-radius: 3px 3px 3px 3px;
+	width:25px;
+}
+
+#printpage a:hover{
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.checksum{
+	border:1px solid #eee;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px;
+}
